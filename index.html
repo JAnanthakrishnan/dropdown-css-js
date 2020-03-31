@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <title>Dropdown</title>
+   <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="s-dropdown-wrapper">
+        <input placeholder="Choose Item" onclick="toggleDropdown('s-dp-01','s-arr-01')" type="text" name="" id="s-dp-input-01" readonly>
+        <img id="s-arr-01" onclick="toggleDropdown('s-dp-01','s-arr-01')" src="down.png" alt="">
+        <div id="s-dp-01" class="s-dropdown-list">
+            <p onclick="setValue('s-dp-input-01',this.innerHTML)">First Item</p>
+            <p onclick="setValue('s-dp-input-01',this.innerHTML)">Second Item</p>
+            <p onclick="setValue('s-dp-input-01',this.innerHTML)">Third Item</p>
+            <p onclick="setValue('s-dp-input-01',this.innerHTML)">Fourth Item</p>
+            <p onclick="setValue('s-dp-input-01',this.innerHTML)">Fifth Item</p>
+            <p onclick="setValue('s-dp-input-01',this.innerHTML)">Sixth Item</p>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
