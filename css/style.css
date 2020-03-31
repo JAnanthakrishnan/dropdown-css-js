@@ -22,7 +22,7 @@ body{
 .s-dropdown-wrapper input{
     background: transparent;
     border: none;
-    font-size: 36px;
+    font-size: 100%;
     padding: 8px 8px;
     line-height: 14px;
     color: #ffffff;
